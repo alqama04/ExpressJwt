@@ -32,7 +32,6 @@ app.get('/',async(_,resp)=>{
 
 })
 app.use('/api/user',userRouter)
-app.use('/api/user',userRouter)
 
 
 app.listen(300)
